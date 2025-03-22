@@ -1,0 +1,75 @@
+.collect-water-container {
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .collect-water-container h2 {
+    color: #0077b6;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .metrics {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .metrics span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .collect-btn {
+    background: #0288d1;
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .collect-btn:hover {
+    background: #01579b;
+  }
+  
+  .achievements {
+    margin-top: 20px;
+    font-size: 1rem;
+    text-align: left;
+  }
+  
+  .achievements h3 {
+    font-size: 1.4rem;
+    color: #ff9800;
+  }
+  
+  .achievements ul {
+    padding-left: 20px;
+    color: #444;
+  }
+  
+  .achievements li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .icon {
+    font-size: 1.4rem;
+    color: #ff9800;
+  }
+  

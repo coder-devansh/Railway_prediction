@@ -1,0 +1,44 @@
+.about-container {
+    min-height: 100vh; /* Ensure it takes at least the full viewport height */
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center;
+    background: linear-gradient(to bottom, #007bff, #61dafb); /* Keep your gradient */
+    color: white;
+  }
+  
+  .about-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .about-container p {
+    max-width: 800px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .about-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-container li {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-container li img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .about-container {
+    margin-top: 80px; /* Adjust according to the Navbar height */
+  }
+  

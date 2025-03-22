@@ -1,0 +1,45 @@
+/* CollectWater.css */
+
+.collect-water-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e0f7fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  .collect-water-header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #00796b;
+  }
+  
+  .water-status {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .collect-button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .collect-button:hover {
+    background-color: #004d40;
+  }
+  
+  .user-credits {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #004d40;
+  }
+  
